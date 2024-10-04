@@ -1,3 +1,4 @@
+/* src/App.css */
 body {
   margin: 0;
   padding: 0;
@@ -15,9 +16,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   max-width: 500px;
-  padding: 20px;
+  padding: 15px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
@@ -25,17 +26,19 @@ body {
 
 .toggle-buttons {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 .toggle-buttons button {
-  padding: 10px 16px;
+  flex: 1;
+  padding: 8px 12px;
   border: none;
-  border-radius: 25px;
+  border-radius: 20px;
   background-color: #e0e0e0;
   color: #333;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -53,7 +56,7 @@ body {
 .flashcard {
   width: 100%;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   background-color: #fafafa;
   border-radius: 10px;
   border: 1px solid #ececec;
@@ -62,14 +65,38 @@ body {
 }
 
 .flashcard h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin: 0;
   color: #333;
 }
 
 .flashcard p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #555;
-  margin-top: 10px;
+  margin-top: 8px;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  .toggle-buttons {
+    gap: 5px;
+  }
+
+  .toggle-buttons button {
+    padding: 6px 10px;
+    font-size: 0.7rem;
+  }
+
+  .flashcard h1 {
+    font-size: 1.4rem;
+  }
+
+  .flashcard p {
+    font-size: 0.9rem;
+  }
 }
