@@ -39,3 +39,246 @@ abwechslungsreich, bunt
 
 zwingend
 unumgänglich, unvermeidbar
+
+berüchtigt
+bekannt, gefürchtet
+
+bezeichnend
+charakteristisch, typisch
+
+empfindlich
+sensibel, anfällig
+
+geläufig
+vertraut, bekannt
+
+gezwungen
+unnatürlich, erzwungen
+
+glänzend
+brillant, hervorragend
+
+gnadenlos
+rücksichtslos, erbarmungslos
+
+grundlegend
+fundamental, wesentlich
+
+hinreichend
+ausreichend, genügend
+
+hoffnungslos
+aussichtslos, verzweifelt
+
+illusorisch
+unrealistisch, trügerisch
+
+konkret
+spezifisch, genau
+
+lebendig
+vital, dynamisch
+
+luxuriös
+pompös, prächtig
+
+maßgeblich
+entscheidend, ausschlaggebend
+
+missverständlich
+zweideutig, unklar
+
+oberflächlich
+flach, leichtfertig
+
+offensiv
+angreifend, aggressiv
+
+persönlich
+privat, individuell
+
+plausibel
+einleuchtend, nachvollziehbar
+
+präzise
+genau, exakt
+
+problematisch
+schwierig, heikel
+
+relevant
+wichtig, bedeutend
+
+rücksichtsvoll
+achtsam, fürsorglich
+
+scheinbar
+angeblich, vorgeblich
+
+schwerfällig
+träge, umständlich
+
+skurril
+merkwürdig, eigenartig
+
+solidarisch
+vereint, gemeinschaftlich
+
+souverän
+sicher, überlegen
+
+stereotyp
+klischeehaft, typisiert
+
+sympathisch
+freundlich, liebenswert
+
+taktvoll
+feinfühlig, rücksichtsvoll
+
+tatsächlich
+wirklich, faktisch
+
+tolerant
+aufgeschlossen, akzeptierend
+
+transparent
+durchsichtig, klar
+
+typisch
+charakteristisch, exemplarisch
+
+übermäßig
+übertrieben, extrem
+
+überraschend
+unerwartet, unverhofft
+
+umfangreich
+groß, ausgedehnt
+
+unangenehm
+unbequem, peinlich
+
+unaufdringlich
+dezent, zurückhaltend
+
+unbekümmert
+sorglos, unbeschwert
+
+unberechenbar
+launisch, unvorhersehbar
+
+ungewöhnlich
+besonders, speziell
+
+unkonventionell
+außergewöhnlich, unorthodox
+
+unsicher
+zweifelnd, wankend
+
+unsinnig
+absurd, irrational
+
+unverzichtbar
+notwendig, essenziell
+
+unzuverlässig
+labil, wankelmütig
+
+vage
+unklar, ungenau
+
+verantwortlich
+zuständig, haftbar
+
+verblüffend
+erstaunlich, überraschend
+
+vergänglich
+vorübergehend, ephemer
+
+verlockend
+anziehend, attraktiv
+
+vermeintlich
+angeblich, scheinbar
+
+vernünftig
+sinnvoll, rationell
+
+verpflichtend
+bindend, verbindlich
+
+verschwenderisch
+freigiebig, luxuriös
+
+vielfach
+häufig, mehrfach
+
+visionär
+zukunftsweisend, fortschrittlich
+
+vorausschauend
+proaktiv, umsichtig
+
+wahllos
+willkürlich, zufällig
+
+widerwillig
+unwillig, abgeneigt
+
+wirksam
+effektiv, effizient
+
+wundervoll
+herrlich, fantastisch
+
+zögerlich
+unsicher, unentschlossen
+
+zufriedenstellend
+ausreichend, befriedigend
+
+zufällig
+ungeplant, spontan
+
+zuverlässig
+verlässlich, stabil
+
+zweideutig
+ambivalent, missverständlich
+
+zynisch
+spöttisch, ironisch
+
+ausführlich
+detailliert, umfassend
+
+selbstständig
+autonom, eigenständig
+
+verantwortungsvoll
+pflichtbewusst, gewissenhaft
+
+umstritten
+kontrovers, fraglich
+
+angemessen
+passend, geeignet
+
+rücksichtslos
+gnadenlos, erbarmungslos
+
+vorhersehbar
+berechenbar, erwartbar
+
+widersprüchlich
+paradox, unvereinbar
+
+zweifelhaft
+fraglich, unsicher
+
+überheblich
+arrogant, anmaßend

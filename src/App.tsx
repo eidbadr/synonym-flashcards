@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Flashcard from "./Flashcard";
 import "./App.css";
-import { WordData } from "./types";
+
+interface WordData {
+  word: string;
+  synonyms: string[];
+}
 
 const App: React.FC = () => {
   const [flashcards, setFlashcards] = useState<WordData[]>([]);
@@ -9,6 +13,11 @@ const App: React.FC = () => {
   const [showSynonyms, setShowSynonyms] = useState<boolean>(false);
   const [language, setLanguage] = useState<string>("de-DE");
   const [displayTime, setDisplayTime] = useState<number>(3000);
+
+  // Helper function to shuffle the words array
+  const shuffleArray = (array: WordData[]) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
 
   useEffect(() => {
     fetch("/words.txt")
@@ -23,7 +32,7 @@ const App: React.FC = () => {
             parsedData.push({ word, synonyms });
           }
         }
-        setFlashcards(parsedData);
+        setFlashcards(shuffleArray(parsedData)); // Shuffle the flashcards
       });
   }, []);
 
@@ -63,13 +72,14 @@ const App: React.FC = () => {
   }, [currentIndex, flashcards, language]);
 
   const currentWord = flashcards[currentIndex];
+  const timeLabel = language === "de-DE" ? "Sekunden" : "Seconds";
 
   return (
     <div className="app">
       <div className="toggle-buttons">
-        <button onClick={() => setDisplayTime(2000)} className={displayTime === 2000 ? "active" : ""}>2 Seconds</button>
-        <button onClick={() => setDisplayTime(3000)} className={displayTime === 3000 ? "active" : ""}>3 Seconds</button>
-        <button onClick={() => setDisplayTime(5000)} className={displayTime === 5000 ? "active" : ""}>5 Seconds</button>
+        <button onClick={() => setDisplayTime(2000)} className={displayTime === 2000 ? "active" : ""}>2 {timeLabel}</button>
+        <button onClick={() => setDisplayTime(3000)} className={displayTime === 3000 ? "active" : ""}>3 {timeLabel}</button>
+        <button onClick={() => setDisplayTime(5000)} className={displayTime === 5000 ? "active" : ""}>5 {timeLabel}</button>
       </div>
       {currentWord && (
         <Flashcard wordData={currentWord} showSynonyms={showSynonyms} />
